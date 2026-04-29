@@ -1,5 +1,11 @@
 # Hermes Eyes
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=fastapi&logoColor=white)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Manifest_V3-4285F4.svg?logo=googlechrome&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-Realtime-010101.svg)
+
 ![Hermes Eyes Banner](assets/banner.png)
 
 **Hermes Eyes** gives your AI assistant a direct view into your browser. A Chrome extension captures the active tab's DOM, screenshot, and viewport state, then streams it to a relay server where your agent can inspect pages, run commands, and persist captures to disk.
