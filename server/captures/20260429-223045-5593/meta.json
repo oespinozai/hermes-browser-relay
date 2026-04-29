@@ -1,0 +1,15 @@
+{
+  "uid": "20260429-223045-5593",
+  "timestamp": "20260429-223045",
+  "url": "https://example.com",
+  "title": "Test",
+  "user_agent": "test",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "files": {
+    "html": "/var/lib/openclaw/hermes-browser-relay/server/captures/20260429-223045-5593/page.html",
+    "screenshot": "/var/lib/openclaw/hermes-browser-relay/server/captures/20260429-223045-5593/screenshot.png"
+  }
+}

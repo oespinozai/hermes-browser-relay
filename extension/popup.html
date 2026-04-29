@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon48.png" alt="Hermes">
+    <h1>Hermes Relay</h1>
+  </div>
+  <div class="status-row">
+    <span id="status-dot"></span>
+    <span id="status-text">Checking...</span>
+  </div>
+  <div class="field">
+    <label for="relay-url">Relay URL</label>
+    <input type="text" id="relay-url" placeholder="ws://100.72.88.97:3500/ws">
+  </div>
+  <div class="field">
+    <label for="session-id">Session ID</label>
+    <input type="text" id="session-id" readonly placeholder="—">
+  </div>
+  <div class="actions">
+    <button id="btn-connect">Connect</button>
+    <button id="btn-disconnect" class="secondary">Disconnect</button>
+  </div>
+  <div class="actions">
+    <button id="btn-capture" class="primary">Capture Tab</button>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
