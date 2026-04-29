@@ -10,8 +10,9 @@ let sessionId = null;
 let relayUrl = DEFAULT_RELAY;
 
 async function getRelayUrl() {
-  const stored = await chrome.storage.local.get('relayUrl');
-  relayUrl = stored.relayUrl || DEFAULT_RELAY;
+  const stored = await chrome.storage.local.get(['relayMode', 'relayUrl', 'publicRelayUrl']);
+  const mode = stored.relayMode || 'local';
+  relayUrl = (mode === 'public' ? stored.publicRelayUrl : stored.relayUrl) || DEFAULT_RELAY;
   return relayUrl;
 }
 

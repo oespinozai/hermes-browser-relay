@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hermes Eyes",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Remote browser relay for the Hermes agent. Captures pages and executes commands via WebSocket.",
   "permissions": ["activeTab", "scripting", "tabs", "storage", "alarms"],
   "host_permissions": ["<all_urls>"],
