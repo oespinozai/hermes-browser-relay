@@ -23,7 +23,14 @@ Built for authenticated pages, design tools, and dynamic state that headless bro
 
 ## Quick Start
 
-### 1. Start the server
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/oespinozai/hermes-eyes.git
+cd hermes-eyes
+```
+
+### 2. Start the server
 
 ```bash
 cd server
@@ -37,7 +44,7 @@ Or use the systemd service:
 sudo systemctl enable --now hermes-browser-relay
 ```
 
-### 2. Install the Chrome extension
+### 3. Install the Chrome extension
 
 1. Open Chrome → `chrome://extensions/`
 2. Enable **Developer mode**
@@ -45,7 +52,7 @@ sudo systemctl enable --now hermes-browser-relay
 4. Select the `extension/` folder
 5. Click the extension icon → **Options** → set your relay URL (default: `ws://localhost:3500/ws`)
 
-### 3. Connect
+### 4. Connect
 
 The extension auto-connects on startup. Click **Capture Tab** in the popup to send the current page to your agent immediately.
 
